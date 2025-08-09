@@ -1,0 +1,118 @@
+body {
+  background-color: #0d0f24;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.container {
+  background-color: #2d2f3a;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="date"] {
+  padding: 8px;
+  border: 2px solid #5d5f75;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+}
+
+input[type="text"]::placeholder {
+  color: #a3a3a3;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#add-btn {
+  background-color: #6b6fff;
+  color: white;
+  font-size: 18px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#filter-btn {
+  background-color: #22333b;
+  color: white;
+}
+
+#delete-all-btn {
+  background-color: #6b6fff;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  font-style: italic;
+}
+
+thead {
+  background-color: #1d1f2f;
+}
+
+.empty {
+  text-align: center;
+  color: #a3a3a3;
+}
+
+.status-done {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.status-pending {
+  color: #ff9800;
+  font-weight: bold;
+}
+
+.action-btn {
+  background-color: #444;
+  color: white;
+  margin-right: 5px;
+}
+
+#todo-input {
+  flex: 1; /* ambil sisa space kiri */
+  border-radius: 5px 5px;
+}
+
+#todo-date {
+  width: 150px; /* lebar tetap */
+  border-radius:  5px 5px ;
+  margin-left: -1px;
+}
